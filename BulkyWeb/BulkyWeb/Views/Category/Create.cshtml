@@ -6,6 +6,10 @@
             <h2 class="text-primary">Create Category</h2>
             <hr />
         </div>
+
+        @* Has 3 values All, ModelOnly and none *@
+        <div asp-validation-summary="All"></div>
+
         <div class="mb-3">
             <label>Category Name</label>
             <input asp-for="Name" type="text" class="form-control"/>
